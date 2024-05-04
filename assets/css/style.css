@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Archivo";
+    src: url("../font/Archivo/Archivo-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Archivo";
+    background-color: #10151d;
+    color: #fcfcfc;
+    font-size: 2rem;
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery__layout {
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "img1 img2 img3"
+        "img4 img4 img3"
+        "img5 img6 img7";
+    gap: 1.5rem;
+    max-width: 1280px;
+    padding: 2rem;
+}
+
+.gallery1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img1;
+}
+
+.gallery2 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img2;
+}
+
+
+.gallery3 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img3;
+}
+
+.gallery4 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img4;
+}
+
+.gallery5 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img5;
+}
+
+.gallery6 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img6;
+}
+
+.gallery7 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    grid-area: img7;
+}
+
+.gallery__photo {
+    width: 100%;
+    height: 100%;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.gallery__photo:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+
+    .gallery__layout {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-areas:
+            "img1 img2"
+            "img3 img3"
+            "img4 img5"
+            "img6 img7"
+        ;
+    }
+
+}
