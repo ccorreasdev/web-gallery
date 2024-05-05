@@ -30,6 +30,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(0deg, white, rgb(137, 137, 137), white);
+    background-repeat: repeat-y;
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+@keyframes desplazamiento {
+    from {
+        background-position: 0 0;
+        /* Posición inicial */
+    }
+
+    to {
+        background-position: 0px 2000px;
+        /* Posición final */
+    }
 }
 
 .nav__layout {
@@ -190,8 +209,9 @@ body {
     padding: 0.5rem;
     padding-bottom: 5rem;
     background-color: #fcfcfc;
-
 }
+
+
 
 .gallery2 {
     position: relative;
@@ -228,6 +248,7 @@ body {
     padding: 0.5rem;
     padding-bottom: 5rem;
     background-color: #fcfcfc;
+
 }
 
 .gallery5 {
