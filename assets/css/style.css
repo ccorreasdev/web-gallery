@@ -3,6 +3,11 @@
     src: url("../font/Archivo/Archivo-VariableFont_wdth\,wght.ttf");
 }
 
+@font-face {
+    font-family: "SHand";
+    src: url("../font/SHand/S_Hand.ttf");
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -15,7 +20,8 @@ html {
 
 body {
     font-family: "Archivo";
-    background-color: #10151d;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0f151d;
     color: #fcfcfc;
     font-size: 2rem;
     width: 100%;
@@ -26,6 +32,19 @@ body {
     align-items: center;
 }
 
+.nav__layout {
+    width: 100%;
+    height: 80px;
+    background-color: #16202c;
+    border-bottom: solid 1px #2e3d51;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+}
 
 .gallery__layout {
     width: 100%;
@@ -42,65 +61,312 @@ body {
     padding: 2rem;
 }
 
+
+
+.photo__title1 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 40;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
+.photo__title2 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 40;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
+.photo__title3 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 40;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
+.photo__title4 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
+.photo__title5 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 40;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
+.photo__title6 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 40;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
+.photo__title7 {
+    font-size: 5rem;
+    font-family: "SHand", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 40;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f151d;
+}
+
 .gallery1 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img1;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 .gallery2 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img2;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 
 .gallery3 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img3;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 .gallery4 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img4;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 .gallery5 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img5;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 .gallery6 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img6;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 .gallery7 {
+    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100%;
     grid-area: img7;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
 }
 
 .gallery__photo {
+    position: relative;
     width: 100%;
     height: 100%;
     transition: all 250ms ease-in-out;
     cursor: pointer;
 }
 
+.gallery1::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery2::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery3::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery4::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery5::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery6::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery7::before {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    z-index: 199;
+    background-image: url("../img/pushpin7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .gallery__photo:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 
